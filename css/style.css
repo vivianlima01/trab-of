@@ -1,0 +1,72 @@
+*{
+    margin:0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#menu-horizontal{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(209, 209, 209);
+}
+
+#menu-horizontal li{
+    display: inline;
+}
+
+#menu-horizontal li a{
+    color:black;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    transition: background .6s;
+
+}
+
+#menu-h li a:hover{
+    background-color: rgb(162, 162, 252);
+}
+
+
+.caixa {
+    box-sizing: border-box;
+    padding: 40px 5%;
+    margin: 0 auto;
+
+    min-height: 500px;
+    height: auto;
+    width: 70vw;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 10% 0 5% 0;
+    background-color: transparent;
+
+    box-sizing: border-box;
+    border: none;
+
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: center;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+
+.card p {
+    font-size: 15px;
+    margin: 0;
+}
+
+.desc-feature {
+    text-align: left;
+    width: 65%;
+}
+
